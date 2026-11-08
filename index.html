@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftReset — Seamless PC Recovery</title>
+    <style>
+        :root {
+            --bg-cream: #fbfbf9;
+            --slate-gray: #334155;
+            --steel-blue: #475569;
+            --light-blue-gray: #f1f5f9;
+            --text-dark: #1e293b;
+            --accent-soft: #64748b;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        header {
+            padding: 100px 0 60px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--slate-gray);
+            letter-spacing: -0.03em;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 500;
+            color: var(--slate-gray);
+            line-height: 1.3;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+        header p {
+            font-size: 1.15rem;
+            color: var(--steel-blue);
+            max-width: 620px;
+            margin: 0 auto 40px;
+        }
+        .btn-container {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--slate-gray);
+            color: var(--bg-cream);
+            padding: 16px 45px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: background-color 0.2s, transform 0.2s;
+            border: 1px solid var(--slate-gray);
+        }
+        .btn:hover {
+            background-color: var(--steel-blue);
+            transform: translateY(-1px);
+        }
+        .instruction-tag {
+            font-size: 0.95rem;
+            color: var(--accent-soft);
+        }
+        .instruction-tag em {
+            font-style: italic;
+            color: var(--steel-blue);
+            font-weight: 500;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 60px 0;
+        }
+        .feature-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #eef0eb;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+        }
+        .feature-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--slate-gray);
+            margin-bottom: 12px;
+        }
+        .feature-card p {
+            font-size: 1.05rem;
+            color: var(--steel-blue);
+        }
+        .mission-box {
+            background-color: var(--light-blue-gray);
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 80px;
+            border-left: 4px solid var(--steel-blue);
+        }
+        .mission-box h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--slate-gray);
+            margin-bottom: 15px;
+        }
+        .mission-box p {
+            font-size: 1.1rem;
+            color: var(--steel-blue);
+        }
+        .mission-box em {
+            font-style: italic;
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.9rem;
+            color: var(--accent-soft);
+            border-top: 1px solid #eef0eb;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">⚡ swiftreset</div>
+            <h1>A quiet, instant solution for lagging computers.</h1>
+            <p>Designed to gently clear memory leaks and unfreeze budget laptops in less than ten seconds, ensuring your current schoolwork is never interrupted.</p>
+            
+            <div class="btn-container">
+                <a href="launch.vbs" class="btn" download>Download Application</a>
+            </div>
+            <div class="instruction-tag">
+                Press your custom system hotkey to instantly optimize your workspace. Your browser tabs remain <em>entirely untouched</em>.
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Zero Friction</h3>
+                <p>Runs natively on standard Windows engines. No heavy backend software installations or extra profiles are ever required.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Tab Preservation</h3>
+                <p>Clears background freezes and system lag safely. Your active web browser tabs and working windows remain <em>entirely untouched</em>.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Lightweight Build</h3>
+                <p>Consumes fewer than 1MB of system footprint. Engineered specifically to give older systems a smooth, seamless performance boost.</p>
+            </div>
+        </section>
+
+        <section class="mission-box">
+            <h2>Purpose-Driven Digital Accessibility</h2>
+            <p>SwiftReset was envisioned and coded by a 14-year-old student innovator in India. Frustrated by the constant disruptions of a lagging computer while trying to study, he designed this utility to provide <em>equal productivity tools for everyone</em>. We believe that a student's ability to learn should never be limited by the speed of their hardware.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 SwiftReset Initiative. Transparent, accessible workspace software.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
